@@ -6,7 +6,7 @@ In this assignment, we will be helping Bobby, an SQL expert, to analyze a group 
 Before we started our analysis, we will first give a brief introduction about the raw data sets. We are given 6 raw data sets: “departments”, “department’s employee”, “department manager”, “employee”, “salaries” and “titles”.  Each of them contain rows of information. As we skim through the data sets, we found that some columns are repeatedly showing in multiple data sets. For example the employee numbers are in the department employee sheet and department manager sheet. Thus we will be using these columns as our keys to connect between different dataset and to join and create new dataset based on the common columns.
 
 ## Results
-![](Pewlett-Hackard-Analysis/Screenshot/Retiring_titles.png)
+![](Screenshot/Retiring_titles.png)
 1) According to the above graph, there is 7 titles among the people who are about to retire. Senior engineer is the title that accounts for the largest part of the retirement population, which is 29414. Senior staff ranks as the second largest number of retiring people, which is 28254. There is only 2 manager roles will be available.
 ![](Pewlett-Hackard-Analysis/Screenshot/mutiple_titles.png)
 2) According to the above graph, many people have or had multiple roles or titles during the time they served in this company. 
