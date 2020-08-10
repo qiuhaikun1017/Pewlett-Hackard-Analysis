@@ -8,13 +8,17 @@ Before we started our analysis, we will first give a brief introduction about th
 ## Results
 
 ![](Screenshot/Retiring_titles.png)
+
 1) According to the above graph, there is 7 titles among the people who are about to retire. Senior engineer is the title that accounts for the largest part of the retirement population, which is 29414. Senior staff ranks as the second largest number of retiring people, which is 28254. There is only 2 manager roles will be available.
 
 ![](Screenshot/mutiple_titles.png)
+
 2) According to the above graph, many people have or had multiple roles or titles during the time they served in this company. 
 
 ![](Screenshot/mentor_num.png)
+
 3) We created a new table, mentor_num, based on the mentorship eligibility table. According to the new table, we can find that there is 504 engineers can be eligible to participate the mentorships program, 464 senior staff and 440 staff can be part of this program. 
+
 4) We notice that 0 manager role can be qualified to participate this program. We have doubt that whether there will be enough manager to participate in the mentorship program.
 
 
@@ -27,8 +31,10 @@ We will also suggest to create a table that can indicate how many roles each per
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
 ![](Screenshot/Retiring_titles.png)
+
 According to the above graph, there will be a total of 90398 roles need to be filled.
 
 ![](Screenshot/mentor_num.png)
+
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 According to the mentor_num table, there will be people for each of the titles except for the manager role. There is 0 manger can participate for this program, thus we concern if there is enough people to mentor for the manager role. 
