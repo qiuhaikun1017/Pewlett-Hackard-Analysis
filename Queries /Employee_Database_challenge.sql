@@ -48,3 +48,10 @@ INNER JOIN titles
         on (emp.emp_no = titles.emp_no)
 WHERE birth_date BETWEEN '1965-01-01' AND '1965-12-31'
 order by emp_no
+
+
+select count(title), title
+into metor_number
+from metorship_eligi
+group by title
+order by count(title) desc;
